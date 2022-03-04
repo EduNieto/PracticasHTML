@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+body{
+    background-color: #f2f2f2;
+    color: #264653;
+}
+h1, h2, h3{
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Pacifico', cursive;
+}
+.contenedor-logo{
+    text-align: center;
+}
+.contenedor-logo>img{
+    width: 300px;
+}
+nav{
+    text-align: right;
+}
+nav>ul{
+    list-style: none;
+    padding: 0;
+    background-color: #E9721B;
+}
+nav>ul>li{
+    display: inline-block;
+}
+li>a{
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 20px;
+    display: block;
+}
+li>a:hover{
+    background-color: #f4a261;
+}
+.centrar{
+    text-align: center;
+}
+img{
+    border-radius: 5px;
+}
+main{
+    background-color: #e9c46a;;
+}
+.cuadro-pasteles{
+    margin: 0 10px 10px 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.contenedor-pasteles{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+}
+.contenedor-toppings{
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+}.crear-pastel{
+    padding: 20px 0;
+}
+main{
+    height: 100%;
+}
+.formulario{
+    padding: 30px 0;
+}
+.contenedor-footer{
+    background-color: #2a9d8f;
+    color: #f2f2f2;
+    padding: 30px;
+}

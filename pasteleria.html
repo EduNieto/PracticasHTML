@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CustomCakes</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-logo">
+            <img src="img/logo.png" alt="CustomCakes logo">
+            <h1 class="centrar">Tu pastel...como quieras.</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#nuestrospasteles">Nuestros pasteles</a></li>
+                <li><a href="#crearpastel">Crea tu pastel</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="tabla.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="nuestrospasteles">
+        <h1 class="centrar">Nuestros Pasteles</h1>
+        <div class="contenedor-pasteles">
+            <div class="cuadro-pasteles">
+                <div class="imagen"><img src="img/tres-leches.jpg" alt="pastel de tres leches" width="200" height="200"></div>
+                <p>Pastel de tres leches</p>
+                <p>$ 300.00 mxn</p>
+            </div>
+            <div class="cuadro-pasteles">
+                <div class="imagen"><img src="img/chocolate.jpg" alt="pastel de chocolate" width="200" height="200"></div>
+                <p>Pastel de chocolate</p>
+                <p>$ 300.00 mxn</p>
+            </div>
+            <div class="cuadro-pasteles">
+                <div class="imagen"><img src="img/fresa.jpg" alt="pastel de fresa" width="200" height="200"></div>
+                <p>Pastel de fresa</p>
+                <p>$ 300.00 mxn</p>
+            </div>
+            <div class="cuadro-pasteles">
+                <div class="imagen"><img src="img/moka.jpg" alt="pastel de moka" width="200" height="200"></div>
+                <p>Pastel de moka</p>
+                <p>$ 300.00 mxn</p>
+            </div>
+            <div class="cuadro-pasteles">
+                <div class="imagen"><img src="img/queso-bola.jpg" alt="pastel de queso de bola" width="200" height="200"></div>
+                <p>Pastel de queso de bola</p>
+                <p>$ 300.00 mxn</p>
+            </div>
+            <div class="cuadro-pasteles">
+                <div class="imagen"><img src="img/zanahoria.jpg" alt="pastel de zanahoria" width="200" height="200"></div>
+                <p>Pastel de zanahoria</p>
+                <p>$ 300.00 mxn</p>
+            </div>
+            <div class="cuadro-pasteles">
+                <div class="imagen"><img src="img/imposible.jpg" alt="pastel imposible" width="200" height="200"></div>
+                <p>Pastel imposible</p>
+                <p>$ 300.00 mxn</p>
+            </div>
+            <div class="cuadro-pasteles">
+                <div class="imagen"><img src="img/red-velvet.jpg" alt="pastel de tres leches" width="200" height="200"></div>
+                <p>Pastel red velvet</p>
+                <p>$ 300.00 mxn</p>
+            </div>
+            <div class="cuadro-pasteles">
+                <div class="imagen"><img src="img/limon.jpg" alt="pastel de limon" width="200" height="200"></div>
+                <p>Pastel de limón</p>
+                <p>$ 300.00 mxn</p>
+            </div>
+        </div>
+    </main>
+    <section class="crear-pastel" id="crearpastel">
+        <div class="centrar">
+            <h2>Crear Pastel</h2>
+            <p>Personaliza tu pastel eligiendo los diferentes tipos de pan, betún y toppings.</p>
+            <form action="#">
+                <div class="centrar">
+                    <h3>Elige el sabor del pan</h3>
+                    <input type="radio" name="sabor-pastel" id="tresleches" value="tresleches">
+                    <label for="tresleches">Tres Leches</label>
+                    <input type="radio" name="sabor-pastel" id="vainilla" value="vainilla">
+                    <label for="vainilla">Vainilla</label>
+                    <input type="radio" name="sabor-pastel" id="chocolate" value="chocolate">
+                    <label for="chocolate">Chocolate</label>
+                    <input type="radio" name="sabor-pastel" id="redvelvet" value="redvelvet">
+                    <label for="redvelvet">Red Velvet</label>
+                    <input type="radio" name="sabor-pastel" id="moka" value="moka">
+                    <label for="moka">Moka</label>
+
+                    <h3>Elige el sabor del betún</h3>
+                    <input type="radio" name="sabor-betun" id="clasico" value="clasico">
+                    <label for="clasico">Clásico</label>
+                    <input type="radio" name="sabor-betun" id="merengue" value="merengue">
+                    <label for="merengue">Merengue</label>
+                    <input type="radio" name="sabor-betun" id="betunchocolate" value="betunchocolate">
+                    <label for="betunchocolate">Chocolate</label>
+
+                    <!--Se limitaría la selección máxima a 3 opciones-->
+                    <h3>Ahora los toppings. Puedes elegir hasta 3.</h3>
+                    <div class="contenedor-toppings">
+                        <input type="checkbox" name="topping1" id="fresa" value="fresa">
+                        <label for="fresa">Fresa</label>
+                        <input type="checkbox" name="topping2" id="mango" value="mango">
+                        <label for="mango">Mango</label>
+                        <input type="checkbox" name="topping3" id="zarzamora" value="zarzamora">
+                        <label for="zarzamora">Zarzamora</label>
+                        <input type="checkbox" name="topping4" id="queso" value="queso">
+                        <label for="queso">Queso de bola</label>
+                        <input type="checkbox" name="topping5" id="coco" value="coco">
+                        <label for="coco">Coco Rayado</label>
+                        <input type="checkbox" name="topping6" id="ferrero" value="ferrero">
+                        <label for="ferrero">Ferrero</label>
+                        <input type="checkbox" name="topping7" id="oreo" value="oreo">
+                        <label for="oreo">Oreo</label>
+                        <input type="checkbox" name="topping8" id="mm" value="mm">
+                        <label for="mm">M&M's</label>
+                        <input type="checkbox" name="topping9" id="malvavisco" value="malvavisco">
+                        <label for="malvavisco">Malvavisco</label>
+                        <input type="checkbox" name="topping10" id="caramelo" value="caramelo">
+                        <label for="caramelo">Caramelo</label>
+                        <input type="checkbox" name="topping11" id="nutella" value="nutella">
+                        <label for="nutella">Nutella</label>
+                        <input type="checkbox" name="toping12" id="leche" value="leche">
+                        <label for="leche">Dulce de Leche</label>
+                        <br>
+                        <!--El precio cambiaría automáticamente según las opciones seleccionadas-->
+                        <br>
+                        <p>Total: $559 MXN</p>
+                        <br>
+                    </div>
+                </div>
+                <input class="boton-crear"type="submit" value="Crear pastel">
+                <input type="reset" value="Borrar todo">
+            </form>
+        </div>
+    </section>
+    <section class="formulario centrar" id="formulario">
+        <h2>Pedido de pastel</h2>
+        <p>Llene el formulario con sus datos de contacto para levantar el pedido de su pastel</p><br>
+        <form class="pedido">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="txtNombre" id="nombre" placeholder="Ingrese su nombre"><br><br>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="txtTelefono" id="telefono" maxlength="10" placeholder="Número telefónico"><br><br>
+            <label for="email">e-mail</label>
+            <input type="email" name="txtEmail" id="email" placeholder="Correo electrónico" required><br><br>
+            <label for="comentarios">Indicaciones adicionales</label><br>
+            <textarea name="txtComentarios" id="comentarios" cols="30" rows="8" placeholder="Dejanos algún comentario o indicación"></textarea>
+            <br><br>
+            <p>Estos don los detalles de tu pastel:</p>
+            <br>
+            <dl>
+                <dt>Pastel de tres leches</dt>
+                <dd>Betún: Clásico</dd>
+                <dd>Toppings: Fresa, Nutella</dd>
+            </dl>
+            <br>
+            <input type="submit" value="Pedir pastel">
+            <input type="reset" value="Borrar datos">
+        </form>
+    </section>
+    <footer id="contacto">
+        <div class="contenedor-footer centrar">
+            <p>Avenida Siempre Viva, 742, Springfield.</p>
+            <p>Teléfono 9991-999 999</p>
+            <p>Horarios de atención</p>
+            <p>Lunes a Viernes de 10:00 a.m. a 8:00 p.m.</p>
+            <p>Sábados y Domingos de 11:00 a.m a 9:00 p.m.</p>
+        </div>
+    </footer>
+</body>
+</html>
